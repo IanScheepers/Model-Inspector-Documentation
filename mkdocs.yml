@@ -60,6 +60,10 @@ markdown_extensions:
 plugins:
   - search
 
+#removes the Made with MK docs watermark
+extra:
+  generator: false
+
 nav:
   - Home: index.md
   - Getting Started:

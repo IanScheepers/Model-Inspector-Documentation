@@ -28,7 +28,7 @@ Run a set of checks against any object and provides feedback for each test and c
 
     Look up exactly what an inspection checks and why it matters.
 
-    [:octicons-arrow-right-24: Inspections reference](inspections/mesh-inspections.md)
+    [:octicons-arrow-right-24: Inspections](inspections/mesh-inspections.md)
 
 
 </div>
