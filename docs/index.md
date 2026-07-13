@@ -22,7 +22,7 @@ Run a set of checks against any object and provides feedback for each test and c
 
     [:octicons-arrow-right-24: User guide](user-guide/interface-overview.md)
 
--   :material-format-list-checks:{ .lg .middle } **Every inspection, explained**
+-   :material-format-list-checks:{ .lg .middle } **Every inspection explained**
 
     ---
 
@@ -33,7 +33,7 @@ Run a set of checks against any object and provides feedback for each test and c
 
 </div>
 
-## Why Use Model Inspector?
+## Why use Model Inspector?
 
 Modeling mistakes are easy to make and easy to miss. N-gons buried in a dense meshs, UV islands that drifted out of bounds, a material slots that get left empty after a merge. Model Inspector catches these before they turn into a rendering bug, a broken bake, or a rejected asset.
 
