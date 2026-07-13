@@ -1,20 +1,78 @@
-site_name: Model Inspector Documentaion
+site_name: Model Inspector
+site_description: Documentation for Model Inspector, a Blender add-on that validates meshes, UVs, and materials for common modeling mistakes.
+site_author: Ian Scheepers
 site_url: https://sitename.example
+
 theme:
   name: material
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-  palette: 
-  - scheme: slate
-    toggle:
-      icon: material/weather-sunny
-      name: Dark mode
-    primary: indigo
-    accent: indigo
-  - scheme: default
-    toggle:
-      icon: material/weather-night
-      name: Dark mode
-    primary: indigo
-    accent: indigo
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: indigo
+      accent: indigo
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quick-start.md
+  - User Guide:
+      - Interface Overview: user-guide/interface-overview.md
+      - Selecting Objects: user-guide/selecting-objects.md
+      - Running an Inspection: user-guide/running-inspections.md
+      - Reading Results & Overlays: user-guide/results-and-overlays.md
+  - Inspections:
+      - Mesh Inspections: inspections/mesh-inspections.md
+      - UV Inspections: inspections/uv-inspections.md
+      - Material Inspections: inspections/material-inspections.md
+  - About:
+      - License: about/license.md
