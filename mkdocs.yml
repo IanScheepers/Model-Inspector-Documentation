@@ -1,0 +1,20 @@
+site_name: Model Inspector Documentaion
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  palette: 
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Dark mode
+    primary: indigo
+    accent: indigo
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Dark mode
+    primary: indigo
+    accent: indigo
