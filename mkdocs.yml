@@ -1,7 +1,7 @@
 site_name: Model Inspector
 site_description: Documentation for Model Inspector, a Blender add-on that validates meshes, UVs, and materials for common modeling mistakes.
 site_author: Ian Scheepers
-site_url: https://sitename.example
+site_url: https://ianscheepers.github.io/Model-Inspector-Documentation/
 
 theme:
   name: material
