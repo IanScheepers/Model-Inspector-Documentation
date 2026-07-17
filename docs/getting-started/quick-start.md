@@ -24,7 +24,7 @@ This walks through a first inspection from an empty scene to reading results.
 
     ![The Model Inspector panel with the Add Object button highlighted](../assets/images/getting-started-results.png)
 
-7. **Locate problem geometry.** Some results come with an overlay with a colored overlay toggle in the viewport showing exactly which faces, vertices, or edges were flagged.
+7. **Locate problem geometry.** Some results come with an overlay with a colored overlay toggle in the viewport showing exactly which faces, vertices, or edges were flagged. Click the 🔍 magnifying glass next to a result to zoom the viewport straight to that geometry.
 
     ![The Model Inspector panel with the Add Object button highlighted](../assets/images/getting-started-locate-problem.png)
 

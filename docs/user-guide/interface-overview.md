@@ -37,4 +37,6 @@ The button at the bottom of the panel runs every enabled check, for every enable
 
 Model Inspector requires Object Mode to run — switch out of Edit Mode, Sculpt Mode, etc. before running an inspection.
 
+If the objects in your list add up to a large vertex count, a **High vertex count** warning stays visible below the button as a reminder that a run may take a while. See [Large meshes](running-inspections.md#large-meshes).
+
 Continue to [Selecting Objects](selecting-objects.md).

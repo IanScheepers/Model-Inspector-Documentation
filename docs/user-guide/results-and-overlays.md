@@ -26,6 +26,13 @@ Checks that flag specific faces, vertices, or edges show their result as a click
 
 Overlay colors match severity: **red** for errors, **yellow/orange** for warnings. Click the result again to turn its overlay off.
 
+## Zooming to flagged geometry
+
+(**TO DO ADD IMAGE**)
+
+Any result with an overlay also shows a 🔍 magnifying glass button next to it. Click it to frame the 3D Viewport on exactly the geometry that check flagged — the same as selecting it and pressing Numpad `.` (View Selected).
+
+If the overlay for that result isn't already toggled on, clicking the magnifying glass turns it on first, then zooms. This is the fastest way to jump straight to a problem without hunting for it in a dense or cluttered scene.
 
 !!! note "Not every check has a visual overlay"
     Some checks describe a property of the object or material as a whole rather than specific geometry — for example *Unapplied Transform*, *Missing UV Map*, *No Material Assigned*, or *Duplicate Material*. These still show a count, but there's nothing specific to highlight, so they're plain text rather than a button.

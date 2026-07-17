@@ -5,6 +5,9 @@ site_url: https://ianscheepers.github.io/Model-Inspector-Documentation/
 
 theme:
   name: material
+  favicon: assets/images/favicon.svg
+  icon:
+    logo: material/magnify
   font:
     text: Merriweather Sans
     code: Red Hat Mono

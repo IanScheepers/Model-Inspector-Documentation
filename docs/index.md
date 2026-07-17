@@ -39,12 +39,12 @@ Modeling mistakes are easy to make and easy to miss. N-gons buried in a dense me
 
 - **Three check categories** — (**Mesh, UV, and Material**) — each with its own set of targeted inspections.
 - **Per-object results** — inspect a single object or a whole batch, and see results broken down individually.
-- **Visual overlays** — click a flagged result to highlight the exact faces, vertices, or edges in the viewport, color-coded by severity.
+- **Visual overlays** — click a flagged result to highlight the exact faces, vertices, or edges in the viewport, color-coded by severity, then use the magnifying glass to zoom straight to it.
 - **Non-destructive** — Model Inspector only reads your scene. It never modifies geometry, UVs, or materials.
 
 ## Requirements
 
-- Blender **4.2** or newer (Model Inspector ships as a Blender extension).
+- Blender **4.2** or newer (Model Inspector is a Blender extension).
 
 ## What gets checked
 
