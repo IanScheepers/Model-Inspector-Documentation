@@ -6,17 +6,11 @@ After running an inspection, select an object in the **Objects to Inspect** list
 
 Results are grouped under a header for each category that ran (**Mesh Results**, **UV Results**, **Material Results**). Each check produces one row:
 
-(**TO DO ADD IMAGE**)
-
-<!-- | State | How it looks |
-| --- | --- |
-| ✅ Passed | Plain label, no count. |
-| ⚠️ Warning | Label with an infraction count, e.g. `Tris (12)`. |
-| ❌ Error | Same as warning, shown in red to draw attention. | -->
+![The Model Inspector panel with the Add Object button highlighted](../assets/images/getting-started-results.png){ style="display: block; margin: 0 auto;" }
 
 ## Jumping to the geometry
 
-(**TO DO ADD IMAGE**)
+![The Model Inspector panel with the Add Object button highlighted](../assets/images/overlay-toggle.png){ style="display: block; margin: 0 auto;" }
 
 Checks that flag specific faces, vertices, or edges show their result as a clickable button. Clicking it toggles a colored overlay in the 3D Viewport highlighting exactly what was flagged:
 
@@ -28,7 +22,7 @@ Overlay colors match severity: **red** for errors, **yellow/orange** for warning
 
 ## Zooming to flagged geometry
 
-(**TO DO ADD IMAGE**)
+![The Model Inspector panel with the Add Object button highlighted](../assets/images/zoom-button.png){ style="display: block; margin: 0 auto;" }
 
 Any result with an overlay also shows a 🔍 magnifying glass button next to it. Click it to frame the 3D Viewport on exactly the geometry that check flagged — the same as selecting it and pressing Numpad `.` (View Selected).
 

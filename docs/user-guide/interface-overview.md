@@ -15,6 +15,9 @@ Inside an expanded category, each inspection has its own checkbox to enable/disa
 
 A category's individual inspection is only used when the category checkbox itself is also enabled.
 
+![The Model Inspector panel with the Add Object button highlighted](../assets/images/getting-started-inspections.png){ style="display: block; margin: 0 auto;" }
+
+
 ## Objects to Inspect
 
 ![The Model Inspector panel with the Add Object button highlighted](../assets/images/user-interface-add-objects.png){ style="display: block; margin: 0 auto;" }
@@ -33,10 +36,15 @@ Selecting a row shows a **Results** section below the list with that object's ou
 
 ![The Model Inspector panel with the Add Object button highlighted](../assets/images/user-interface-run-inspections.png){ style="display: block; margin: 0 auto;" }
 
-The button at the bottom of the panel runs every enabled check, for every enabled category, against every object currently in the inspection list.
 
-Model Inspector requires Object Mode to run — switch out of Edit Mode, Sculpt Mode, etc. before running an inspection.
 
-If the objects in your list add up to a large vertex count, a **High vertex count** warning stays visible below the button as a reminder that a run may take a while. See [Large meshes](running-inspections.md#large-meshes).
+
+The button at the bottom of the panel runs every enabled inspection, for every enabled category, against every object currently in the inspection list.
+
+Model Inspector requires you to be in Object Mode to run an inspection. You will need to switch out of Edit Mode, Sculpt Mode, etc. before running an inspection.
+
+If the objects in your list add up to a large vertex count, a **High vertex count** warning stays visible below the button as a reminder that a run may take a while. See [High vertex count](running-inspections.md#large-meshes).
+
+![The Model Inspector panel with the Add Object button highlighted](../assets/images/user-guide-high-vert-count-warning.png){ style="display: block; margin: 0 auto;" }
 
 Continue to [Selecting Objects](selecting-objects.md).
