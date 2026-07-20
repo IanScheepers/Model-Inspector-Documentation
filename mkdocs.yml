@@ -81,5 +81,6 @@ nav:
       - Mesh Inspections: inspections/mesh-inspections.md
       - UV Inspections: inspections/uv-inspections.md
       - Material Inspections: inspections/material-inspections.md
+  - Tutorial Video: tutorial-video.md
   - About:
       - License: about/license.md

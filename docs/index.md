@@ -29,7 +29,14 @@ Run a set of checks against any object and provides feedback for each test and c
     Look up exactly what an inspection checks and why it matters.
 
     [:octicons-arrow-right-24: Inspections](inspections/mesh-inspections.md)
+    
+-   :material-format-list-checks:{ .lg .middle } **Tutorial video**
 
+    ---
+
+    Watch a video overview explaining the add-on
+
+    [:octicons-arrow-right-24: Watch the tutorial](tutorial-video.md)
 
 </div>
 
