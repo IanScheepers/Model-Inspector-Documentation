@@ -2,7 +2,7 @@
 
 **Model Inspector** is a Blender add-on that validates meshes, UVs, and materials for a set of common modeling mistakes, right inside the 3D Viewport.
 
-Run a set of checks against any object and provides feedback for each test and category as a pass/warning/error breakdown. You can jump straight to the problem geometry with a single click! No more hunting for mystery errors in you models.
+Run a set of checks against any object and provides feedback for each test and category as a pass/warning/error breakdown. You can jump straight to the problem geometry with a single click! No more hunting for mystery errors in your models.
 
 <div class="grid cards" markdown>
 
