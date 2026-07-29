@@ -2,7 +2,7 @@
 
 **Model Inspector** is a Blender add-on that validates meshes, UVs, and materials for a set of common modeling mistakes, right inside the 3D Viewport.
 
-Run a set of checks against any object and provides feedback for each test and category as a pass/warning/error breakdown. You can jump straight to the problem geometry with a single click! No more hunting for mystery errors in your models.
+Run a set of checks against any object and get feedback for each test and category as a pass/warning/error breakdown. You can jump straight to the problem geometry with a single click! No more hunting for mystery errors in your models.
 
 <div class="grid cards" markdown>
 
@@ -42,7 +42,7 @@ Run a set of checks against any object and provides feedback for each test and c
 
 ## Why use Model Inspector?
 
-Modeling mistakes are easy to make and easy to miss. N-gons buried in a dense meshs, UV islands that drifted out of bounds, a material slots that get left empty after a merge. Model Inspector catches these before they turn into a rendering bug, a broken bake, or a rejected asset.
+Modeling mistakes are easy to make and easy to miss. N-gons buried in a dense mesh, UV islands that drifted out of bounds, material slots that get left empty after a merge. Model Inspector catches these before they turn into a rendering bug, a broken bake, or a rejected asset.
 
 - **Three check categories** — (**Mesh, UV, and Material**) — each with its own set of targeted inspections.
 - **Per-object results** — inspect a single object or a whole batch, and see results broken down individually.
@@ -58,7 +58,7 @@ Modeling mistakes are easy to make and easy to miss. N-gons buried in a dense me
 | Category | Checks |
 | --- | --- |
 | [Mesh](inspections/mesh-inspections.md) | Ngons, tris, loose vertices, non-manifold edges, doubles, interior faces, inverted normals, unapplied transforms, high-valence vertices |
-| [UV](inspections/uv-inspections.md) | Missing UV maps, too many UV maps, overlapping UVs, zero-area UVs, UVs outside 0–1 bounds |
+| [UV](inspections/uv-inspections.md) | Missing UV maps, too many UV maps, overlapping UVs, zero-area UVs, UVs outside 0–1 bounds, stretched UVs, inconsistent texel density |
 | [Material](inspections/material-inspections.md) | Missing materials, empty material slots, faces with no material, missing image textures, duplicate materials |
 
 Ready to get started? Head to the [installation guide](getting-started/installation.md).
